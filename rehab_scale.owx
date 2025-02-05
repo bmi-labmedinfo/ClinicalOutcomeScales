@@ -1,0 +1,1578 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/giovannanicora/ontologies/2025/0/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/giovannanicora/ontologies/2025/0/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/giovannanicora/ontologies/2025/0/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ARAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttentionFuncionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BalanceFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beck_Depression_Inventory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BergBalanceScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blaylock_Risk_Assessment_Screening_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caregiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CategoricalMeasuredValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalConditionSeverity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalFinding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CognitiveImpairement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comorbidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cumulative_Illness_Rating_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisabilityAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EQ-5D-5L"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatigueLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue_Severity_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FuglMeyerUpperLimb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FuglMeyer_LowerLimb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_oral_intake_score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handgrip_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthCareOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital_anxiety_and_depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationNeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifetime_Total_Physical_Activity_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasuredValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementGoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoryFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mini_Nutritional_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModifiedAshworthScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModifiedBarthelIndex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modified_Rankin_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonofilamentPen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montreal_Cognitive_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorCapacityAssessement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotricityIndex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuscularSpasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuscularStrenght"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NIHSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuroCognitiveAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neuropathy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumericalMeasuredValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumericalRatingScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionalAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionalStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrdinalMeasuredValued"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parkinson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProprioceptionFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychologicalAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QoL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityofLifeAssessement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SARC-F"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkinSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeechFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymbolDigitModalityTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenMeterWalkingTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thumb_localizing_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoMinWalkingTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UpperLimbFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoxAndBlockTest:"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#executed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#executes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generates_need"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#not_recommended_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quantifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#results_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#targets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_device"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#certification_needed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#data_interpretation_issues"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#device_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#execution_frequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#execution_mode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#execution_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_medical_device"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#license_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#measure_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#risk_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tutorial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unit_measure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#version"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ARAT"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARAT"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#UpperLimbFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARAT"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttentionFuncionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BalanceFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beck_Depression_Inventory"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beck_Depression_Inventory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#Depression"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beck_Depression_Inventory"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BergBalanceScale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BergBalanceScale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#BalanceFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BergBalanceScale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blaylock_Risk_Assessment_Screening_Score"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blaylock_Risk_Assessment_Screening_Score"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#RiskLevel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blaylock_Risk_Assessment_Screening_Score"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caregiver"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CategoricalMeasuredValue"/>
+        <Class IRI="#MeasuredValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <ObjectUnionOf>
+                <Class IRI="#ClinicalConditionSeverity"/>
+                <Class IRI="#Comorbidity"/>
+                <Class IRI="#Disability"/>
+                <Class IRI="#FatigueLevel"/>
+                <Class IRI="#Pain"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalConditionSeverity"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalFinding"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CognitiveImpairement"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comorbidity"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cumulative_Illness_Rating_Scale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cumulative_Illness_Rating_Scale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <ObjectUnionOf>
+                <Class IRI="#ClinicalConditionSeverity"/>
+                <Class IRI="#Comorbidity"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cumulative_Illness_Rating_Scale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depression"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#device_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#device_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#is_medical_device"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disability"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisabilityAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisabilityAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <Class IRI="#Disability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EQ-5D-5L"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EQ-5D-5L"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#QoL"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EQ-5D-5L"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatigueLevel"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue_Severity_Scale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue_Severity_Scale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#FatigueLevel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue_Severity_Scale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyerUpperLimb"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyerUpperLimb"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#UpperLimbFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyerUpperLimb"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyer_LowerLimb"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyer_LowerLimb"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FuglMeyer_LowerLimb"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_oral_intake_score"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_oral_intake_score"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#NutritionalStatus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_oral_intake_score"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handgrip_test"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handgrip_test"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#UpperLimbFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handgrip_test"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthCareOperator"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_anxiety_and_depression"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_anxiety_and_depression"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <ObjectUnionOf>
+                <Class IRI="#Anxiety"/>
+                <Class IRI="#Depression"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_anxiety_and_depression"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationNeed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#not_recommended_for"/>
+            <Class IRI="#MedicalCondition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifetime_Total_Physical_Activity_Questionnaire"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifetime_Total_Physical_Activity_Questionnaire"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#QoL"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifetime_Total_Physical_Activity_Questionnaire"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#executed_by"/>
+            <Class IRI="#Person"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#InformationNeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#results_in"/>
+            <Class IRI="#MeasuredValue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#executed_by"/>
+            <Class IRI="#Person"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#InformationNeed"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#results_in"/>
+            <Class IRI="#MeasuredValue"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#targets"/>
+            <Class IRI="#MedicalCondition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#uses_device"/>
+            <Class IRI="#Device"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#certification_needed"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#language"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#data_interpretation_issues"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#execution_time"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#tutorial"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasuredValue"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#value_type"/>
+            <DataOneOf>
+                <Literal>categorical</Literal>
+                <Literal>numeric</Literal>
+                <Literal>ordinal</Literal>
+            </DataOneOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasuredValue"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#unit_measure"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasuredValue"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#value_type"/>
+            <DataOneOf>
+                <Literal>categorical</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementGoal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <Class IRI="#InformationNeed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementGoal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <Class IRI="#InformationNeed"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mini_Nutritional_Assessment"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mini_Nutritional_Assessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#NutritionalStatus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mini_Nutritional_Assessment"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedAshworthScale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedAshworthScale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#MuscularSpasticity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedAshworthScale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedBarthelIndex"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedBarthelIndex"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#Disability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedBarthelIndex"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modified_Rankin_Scale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modified_Rankin_Scale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#Disability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modified_Rankin_Scale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonofilamentPen"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montreal_Cognitive_Assessment"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montreal_Cognitive_Assessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#CognitiveImpairement"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montreal_Cognitive_Assessment"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorCapacityAssessement"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorCapacityAssessement"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <ObjectUnionOf>
+                <Class IRI="#BalanceFunctionality"/>
+                <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+                <Class IRI="#MuscularSpasticity"/>
+                <Class IRI="#MuscularStrenght"/>
+                <Class IRI="#UpperLimbFunctionality"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotricityIndex"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotricityIndex"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#MuscularStrenght"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotricityIndex"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuscularSpasticity"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuscularStrenght"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#executed_by"/>
+            <Class IRI="#HealthCareOperator"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#results_in"/>
+            <Class IRI="#NumericalMeasuredValue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#results_in"/>
+            <Class IRI="#OrdinalMeasuredValued"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#ClinicalConditionSeverity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#results_in"/>
+            <ObjectUnionOf>
+                <Class IRI="#NumericalMeasuredValue"/>
+                <Class IRI="#OrdinalMeasuredValued"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#targets"/>
+            <Class IRI="#Stroke"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <ObjectMaxCardinality cardinality="0">
+            <ObjectProperty IRI="#uses_device"/>
+            <Class IRI="#Device"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#certification_needed"/>
+            <DataOneOf>
+                <Literal>no</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#data_interpretation_issues"/>
+            <DataOneOf>
+                <Literal>https://pmc.ncbi.nlm.nih.gov/articles/PMC10941908/</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIHSS"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuroCognitiveAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuroCognitiveAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <ObjectUnionOf>
+                <Class IRI="#AttentionFuncionality"/>
+                <Class IRI="#CognitiveImpairement"/>
+                <Class IRI="#MemoryFunctionality"/>
+                <Class IRI="#ProprioceptionFunctionality"/>
+                <Class IRI="#SpeechFunctionality"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuropathy"/>
+        <Class IRI="#Disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericalMeasuredValue"/>
+        <Class IRI="#MeasuredValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericalMeasuredValue"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#value_type"/>
+            <DataOneOf>
+                <Literal>numeric</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericalRatingScale"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericalRatingScale"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#Pain"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumericalRatingScale"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NutritionalAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NutritionalAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <Class IRI="#NutritionalStatus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NutritionalStatus"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrdinalMeasuredValued"/>
+        <Class IRI="#MeasuredValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrdinalMeasuredValued"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#value_type"/>
+            <DataOneOf>
+                <Literal>ordinal</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pain"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parkinson"/>
+        <Class IRI="#Disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#executes"/>
+            <Class IRI="#Measure"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProprioceptionFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychologicalAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychologicalAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <ObjectUnionOf>
+                <Class IRI="#Anxiety"/>
+                <Class IRI="#Depression"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QoL"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityofLifeAssessement"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityofLifeAssessement"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <ObjectUnionOf>
+                <Class IRI="#Anxiety"/>
+                <Class IRI="#Depression"/>
+                <Class IRI="#Disability"/>
+                <Class IRI="#FatigueLevel"/>
+                <Class IRI="#Pain"/>
+                <Class IRI="#QoL"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAssessment"/>
+        <Class IRI="#MeasurementGoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAssessment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#generates_need"/>
+            <Class IRI="#RiskLevel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskLevel"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskLevel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#risk_type"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskLevel"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#risk_type"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SARC-F"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SARC-F"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#RiskLevel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SARC-F"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>questionnaire</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#uses_device"/>
+            <Class IRI="#MonofilamentPen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#RiskLevel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#uses_device"/>
+            <Class IRI="#MonofilamentPen"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkinSensitivity"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeechFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <Class IRI="#Disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymbolDigitModalityTest"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymbolDigitModalityTest"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#MemoryFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymbolDigitModalityTest"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenMeterWalkingTest"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenMeterWalkingTest"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenMeterWalkingTest"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thumb_localizing_test"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thumb_localizing_test"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#ProprioceptionFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thumb_localizing_test"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoMinWalkingTest"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoMinWalkingTest"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoMinWalkingTest"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UpperLimbFunctionality"/>
+        <Class IRI="#InformationNeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoxAndBlockTest:"/>
+        <Class IRI="#Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoxAndBlockTest:"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#quantifies"/>
+            <Class IRI="#UpperLimbFunctionality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoxAndBlockTest:"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#measure_type"/>
+            <DataOneOf>
+                <Literal>test</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AttentionFuncionality"/>
+        <Class IRI="#BalanceFunctionality"/>
+        <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        <Class IRI="#MemoryFunctionality"/>
+        <Class IRI="#MuscularSpasticity"/>
+        <Class IRI="#SkinSensitivity"/>
+        <Class IRI="#SpeechFunctionality"/>
+        <Class IRI="#UpperLimbFunctionality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BalanceFunctionality"/>
+        <Class IRI="#LowerLimb_and_WalkingFunctionality"/>
+        <Class IRI="#MemoryFunctionality"/>
+        <Class IRI="#MuscularSpasticity"/>
+        <Class IRI="#SkinSensitivity"/>
+        <Class IRI="#SpeechFunctionality"/>
+        <Class IRI="#UpperLimbFunctionality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beck_Depression_Inventory"/>
+        <Class IRI="#Blaylock_Risk_Assessment_Screening_Score"/>
+        <Class IRI="#Cumulative_Illness_Rating_Scale"/>
+        <Class IRI="#Fatigue_Severity_Scale"/>
+        <Class IRI="#Functional_oral_intake_score"/>
+        <Class IRI="#Handgrip_test"/>
+        <Class IRI="#Hospital_anxiety_and_depression"/>
+        <Class IRI="#Lifetime_Total_Physical_Activity_Questionnaire"/>
+        <Class IRI="#Mini_Nutritional_Assessment"/>
+        <Class IRI="#Modified_Rankin_Scale"/>
+        <Class IRI="#Montreal_Cognitive_Assessment"/>
+        <Class IRI="#NIHSS"/>
+        <Class IRI="#SARC-F"/>
+        <Class IRI="#Semmes-Weinstein_monofilament"/>
+        <Class IRI="#Thumb_localizing_test"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MotorCapacityAssessement"/>
+        <Class IRI="#NeuroCognitiveAssessment"/>
+        <Class IRI="#QualityofLifeAssessement"/>
+        <Class IRI="#RiskAssessment"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#executed_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#executes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#not_recommended_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#results_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#targets"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uses_device"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#executed_by"/>
+        <ObjectProperty IRI="#executes"/>
+    </InverseObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#certification_needed"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#device_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#execution_frequency"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#execution_mode"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#execution_time"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#is_medical_device"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#license_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#unit_measure"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#value_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#version"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#certification_needed"/>
+        <DataOneOf>
+            <Literal>no</Literal>
+            <Literal>yes</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#execution_mode"/>
+        <DataOneOf>
+            <Literal>hybrid</Literal>
+            <Literal>presence</Literal>
+            <Literal>remote</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_medical_device"/>
+        <DataOneOf>
+            <Literal>no</Literal>
+            <Literal>yes</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#license_type"/>
+        <DataOneOf>
+            <Literal>free</Literal>
+            <Literal>paid</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#measure_type"/>
+        <DataOneOf>
+            <Literal>questionnaire</Literal>
+            <Literal>test</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#risk_type"/>
+        <DataOneOf>
+            <Literal>diabetic_neuropathy</Literal>
+            <Literal>discharge_problem</Literal>
+            <Literal>malnutrition</Literal>
+            <Literal>sarcopenia</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tutorial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#data_interpretation_issues</IRI>
+        <Literal>for example ceiling or floor effects due to the questions formulation</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
